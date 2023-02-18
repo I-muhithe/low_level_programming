@@ -3,11 +3,11 @@
 #include <time.h>
 /**
 * main - Entry point
-* Return: Always 0 (success)
+* Return: Always 0 (Success)
 */
 int main(void)
 {
-char low; 	
+char low;
 for (low = 'a'; low <= 'z'; low++)
 putchar(low);
 for (low = 'A'; low <= 'Z'; low++)
